@@ -26,7 +26,7 @@ channel1 = 1010567975163658290
 
 
 async def print_info(bot_user_name, bot_user_id, bot_get_all_members):
-    os.system("cls")
+    os.system("clear")
     print(Back.LIGHTWHITE_EX + Fore.LIGHTRED_EX)
     print(f"----------")
     print(f"Connected Bot Name: {bot_user_name}\n")
