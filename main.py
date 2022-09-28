@@ -97,7 +97,9 @@ class Bot(commands.Bot):
 
         except Exception as e:
             print(e)
+            
 
+TOKEN = os.getenv("TOKEN")
 
 bot = Bot()
 bot.run(str(TOKEN))
